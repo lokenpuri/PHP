@@ -2,7 +2,8 @@
 <html>
 <head>
 	<title>
-	
+		<h3>Foreach loop</h3>
+			
 	</title>
 </head>
 <body>
@@ -39,7 +40,6 @@ $persons = array(
 			<th colspan="3">Address</th>
 
 		</tr>
-
 		<tr>
 			<td></td>
 			<td></td>
@@ -47,8 +47,6 @@ $persons = array(
 			<th>City</th>
 			<th>Country</th>
 			<th>Block</th>
-			
-
 		</tr>
 <?php 
 $SN = 1;
@@ -75,10 +73,7 @@ foreach ($persons as $p) { ?>
 <?php } ?>
 
 </table>
-
-
 <br><br>
-
 <table border="1" width="400px">
 			<tr>
 			<th>SN</th>
